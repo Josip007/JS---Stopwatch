@@ -1,0 +1,45 @@
+body {
+    margin-top: calc(50vh - 15px);
+    margin-left: auto;
+}
+
+#timer {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#numbers {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+#letters {
+    justify-content: center;
+    align-items: center;
+}
+#start {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(100, 181, 100);
+    margin-right: 20px;
+}
+#stop {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(100, 181, 100);
+    margin-right: 20px;
+}
+#reset {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(100, 181, 100);
+}
